@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import robert from './robert-lewandowski.png';
 import './App.css';
 
