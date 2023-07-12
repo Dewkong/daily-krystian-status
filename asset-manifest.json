@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/daily-krystian-status/static/css/main.073c9b0a.css",
-    "main.js": "/daily-krystian-status/static/js/main.27aaa639.js",
+    "main.css": "/daily-krystian-status/static/css/main.9974fe17.css",
+    "main.js": "/daily-krystian-status/static/js/main.62ef14a7.js",
     "static/js/787.503b477d.chunk.js": "/daily-krystian-status/static/js/787.503b477d.chunk.js",
-    "static/media/logo.svg": "/daily-krystian-status/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/robert-lewandowski.png": "/daily-krystian-status/static/media/robert-lewandowski.edaa9712a813e06ba5d5.png",
     "index.html": "/daily-krystian-status/index.html",
-    "main.073c9b0a.css.map": "/daily-krystian-status/static/css/main.073c9b0a.css.map",
-    "main.27aaa639.js.map": "/daily-krystian-status/static/js/main.27aaa639.js.map",
+    "main.9974fe17.css.map": "/daily-krystian-status/static/css/main.9974fe17.css.map",
+    "main.62ef14a7.js.map": "/daily-krystian-status/static/js/main.62ef14a7.js.map",
     "787.503b477d.chunk.js.map": "/daily-krystian-status/static/js/787.503b477d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.27aaa639.js"
+    "static/css/main.9974fe17.css",
+    "static/js/main.62ef14a7.js"
   ]
 }
