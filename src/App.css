@@ -42,5 +42,29 @@ th {
   font-family:'Courier New', Courier, monospace;
   font-style: italic;
   color: lightgray;
-  font-weight: lighter;
+  font-weight: lighter; 
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  min-height: 400px;
+  margin: 0 20px;
+}
+
+h2 {
+  margin-bottom: 0;
 }
