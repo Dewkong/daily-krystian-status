@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/daily-krystian-status/static/css/main.9974fe17.css",
-    "main.js": "/daily-krystian-status/static/js/main.62ef14a7.js",
+    "main.css": "/daily-krystian-status/static/css/main.1870332f.css",
+    "main.js": "/daily-krystian-status/static/js/main.d43ae839.js",
     "static/js/787.503b477d.chunk.js": "/daily-krystian-status/static/js/787.503b477d.chunk.js",
     "static/media/robert-lewandowski.png": "/daily-krystian-status/static/media/robert-lewandowski.edaa9712a813e06ba5d5.png",
     "index.html": "/daily-krystian-status/index.html",
-    "main.9974fe17.css.map": "/daily-krystian-status/static/css/main.9974fe17.css.map",
-    "main.62ef14a7.js.map": "/daily-krystian-status/static/js/main.62ef14a7.js.map",
+    "main.1870332f.css.map": "/daily-krystian-status/static/css/main.1870332f.css.map",
+    "main.d43ae839.js.map": "/daily-krystian-status/static/js/main.d43ae839.js.map",
     "787.503b477d.chunk.js.map": "/daily-krystian-status/static/js/787.503b477d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9974fe17.css",
-    "static/js/main.62ef14a7.js"
+    "static/css/main.1870332f.css",
+    "static/js/main.d43ae839.js"
   ]
 }
