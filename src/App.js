@@ -11,18 +11,37 @@ const weekData = [
 
 const favouriteTeam = "WINNERPOOL";
 
+var youtubeToggled = false;
+var easterEggFound = false;
+
+const toggleYoutubeView = () => {
+  if (!easterEggFound) return;
+  var grappaDiv = document.getElementById("GrappaDiv");
+  youtubeToggled = !youtubeToggled;
+  grappaDiv.style.display = youtubeToggled ? "block" : "none";
+}
+
+const toggleYoutubeVid = () => {
+  var grappaVid = document.getElementById("GrappaVid");
+  grappaVid.src = "https://www.youtube.com/embed/n23ejN1esr4?autoplay=1";
+  easterEggFound = true;
+}
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Daily Krystian Status</h1>
-        <a href='https://www.youtube.com/watch?v=n23ejN1esr4' target='_blank' rel='noreferrer'>
+        <h1 onClick={toggleYoutubeView}>Daily Krystian Status</h1>
+        <div onClick={toggleYoutubeVid}>
           <img src={robert} className="App-logo" alt="robert" />
-        </a>
+        </div>
+        <div id='GrappaDiv'>
+          <iframe id='GrappaVid' allow='autoplay' width="800px" height="500px"  title="GRAPPA ICE" frameborder="0" allowFullScreen></iframe>
+        </div>
         <div class="main">
           <div class="inner">
             <h2>FOOD</h2>
-            <p className='quote strikethrough'>Every day is a soup day ~ wonim</p>
+            <p className='quote'>Every day is a soup day ~ wonim</p>
             <table>
               <tr>
                 <th>Week day</th>
